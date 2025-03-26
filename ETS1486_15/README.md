@@ -33,3 +33,15 @@ is a string method that checks if a string starts with a specified prefix. It re
 **str.endswith()**
 
 is a string method that checks if a string ends with a specified suffix. It returns True if the string ends with the given substring and False otherwise.
+
+**str.count()**
+
+ Returns the count of non-overlapping occurrences of a substring.
+
+**str.replace()**
+
+ Returns a copy of the string with occurrences of a substring replaced.
+
+**str.strip()**
+
+ Returns a copy of the string with leading and trailing whitespace removed.
