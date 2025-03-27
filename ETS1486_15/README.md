@@ -45,3 +45,15 @@ is a string method that checks if a string ends with a specified suffix. It retu
 **str.strip()**
 
  Returns a copy of the string with leading and trailing whitespace removed.
+
+**str.islower()**
+
+is a type of string method which that acts as a boolean and returns true if all the text are lowercase and false if it is uppercase
+
+**str.isupper()**
+
+is a type of string method which returns true if all the text are in upper case and false if it is lowercase
+
+**str.encode()** 
+
+is a method used to convert a string (which is in Unicode by default) into a bytes object using a specified encoding. This is useful when working with files, network communication, or encryption, where text needs to be represented as bytes.
