@@ -1,4 +1,4 @@
-no**str.lower()**
+**str.lower()**
 
 The str.lower() method is used to convert all the uppercase characters in a string to lowercase. It doesn't modify the original string but instead returns a new string with all characters in lowercase.
 
