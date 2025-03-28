@@ -1,4 +1,4 @@
-**str.lower()**
+no**str.lower()**
 
 The str.lower() method is used to convert all the uppercase characters in a string to lowercase. It doesn't modify the original string but instead returns a new string with all characters in lowercase.
 
@@ -57,3 +57,15 @@ is a type of string method which returns true if all the text are in upper case 
 **str.encode()** 
 
 is a method used to convert a string (which is in Unicode by default) into a bytes object using a specified encoding. This is useful when working with files, network communication, or encryption, where text needs to be represented as bytes.
+
+**str.lstrip()**
+
+ method in Python is used to remove leading whitespace (spaces, tabs, newlines, etc.) from a string. It returns a new string with the leading characters removed.
+
+**str.rstrip()**
+
+ method in Python is used to remove trailing whitespace (spaces, tabs, newlines, etc.) from the right end of a string. It returns a new string with the trailing characters removed.
+
+**str.split()**
+
+ method in Python is used to split a string into a list of substrings based on a specified delimiter. By default, it splits by whitespace characters (spaces, tabs, newlines), but you can specify a custom delimiter if needed.
