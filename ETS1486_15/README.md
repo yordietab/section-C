@@ -61,11 +61,19 @@ is a method used to convert a string (which is in Unicode by default) into a byt
 **str.lstrip()**
 
  method in Python is used to remove leading whitespace (spaces, tabs, newlines, etc.) from a string. It returns a new string with the leading characters removed.
+syntax: **str.lstrip([chars])**
+**chars (optional)**: A string specifying the set of characters to remove from the left side of the string. If not provided, it removes leading whitespace characters by default (spaces, tabs, newlines).
 
 **str.rstrip()**
 
  method in Python is used to remove trailing whitespace (spaces, tabs, newlines, etc.) from the right end of a string. It returns a new string with the trailing characters removed.
+**syntax** : str.rstrip([chars])
+**chars (optional)**: A string specifying the set of characters to remove from the right side of the string. If not provided, it removes trailing whitespace characters by default (spaces, tabs, newlines).
 
 **str.split()**
 
  method in Python is used to split a string into a list of substrings based on a specified delimiter. By default, it splits by whitespace characters (spaces, tabs, newlines), but you can specify a custom delimiter if needed.
+**syntax** : str.split(separator=None, maxsplit=-1)
+**separator (optional)**: The delimiter or separator string. The string will be split wherever this separator occurs. If None (or not provided), it will split by any whitespace (spaces, tabs, newlines).
+
+**maxsplit (optional)**: The maximum number of splits to do. The default value of -1 means "no limit," i.e., it will split as many times as possible.
