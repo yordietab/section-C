@@ -115,4 +115,32 @@ No parameters needed.
 
 Works only for digits (0-9).
 
+#**str.isalnum()**
 
+ method in Python checks if a string contains only alphanumeric characters (letters A-Z, a-z and digits 0-9) and is not empty.
+
+It returns:
+
+True → if all characters are letters and/or numbers.
+
+False → if the string contains spaces, special characters, or is empty.
+
+#**str.isspace()**
+
+ method in Python checks if a string contains only whitespace characters (such as spaces, tabs, and newlines) and is not empty.
+
+It returns:
+
+True → if the string contains only whitespace.
+
+False → if the string has any non-whitespace characters or is empty.
+
+#**str.format()**
+
+ method in Python is used to format strings by inserting values into placeholders {} within a string. This makes it easier to create dynamic and readable output.
+
+**syntax: string.format(value1, value2, ...)**
+
+{} → Acts as a placeholder in the string.
+
+format(value1, value2, ...) → Inserts values into the placeholders.
