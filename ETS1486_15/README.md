@@ -144,3 +144,22 @@ False → if the string has any non-whitespace characters or is empty.
 {} → Acts as a placeholder in the string.
 
 format(value1, value2, ...) → Inserts values into the placeholders.
+
+#**f-strings**
+
+ (formatted string literals) are a modern and efficient way to format strings in Python. They were introduced in Python 3.6 and allow us to embed expressions inside string literals using curly braces {}.
+
+**syntax: f"Your text {variable}"**
+
+The f or F before the string tells Python to format the string.
+
+Placeholders {} contain variables or expressions.
+
+#**len()**
+
+len() function in Python is used to find the number of items in an object, such as a string, list, tuple, dictionary, or other iterable.
+
+**syntax: len(object)**
+
+object: A sequence (string, list, tuple, etc.) or a collection (dictionary, set, etc.).
+
