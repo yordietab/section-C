@@ -163,3 +163,7 @@ len() function in Python is used to find the number of items in an object, such 
 
 object: A sequence (string, list, tuple, etc.) or a collection (dictionary, set, etc.).
 
+**Dictionary**
+
+dictionary is a built-in data type that stores data in key-value pairs. It’s similar to a real-life dictionary where you look up a word (the key) to find its definition (the value).
+
