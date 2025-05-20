@@ -167,3 +167,14 @@ object: A sequence (string, list, tuple, etc.) or a collection (dictionary, set,
 
 dictionary is a built-in data type that stores data in key-value pairs. It’s similar to a real-life dictionary where you look up a word (the key) to find its definition (the value).
 
+
+**list** list is a built-in data type used to store a collection of items (also called elements). Lists are ordered, changeable (mutable), and allow duplicate values.
+
+** Key Features of Lists:**
+Defined using square brackets: [ ]
+
+Can contain different data types (e.g., numbers, strings, other lists)
+
+Indexing starts at 0
+
+Can be modified (items added, changed, removed)
